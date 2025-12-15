@@ -1,8 +1,12 @@
-names:
-- combined_cart
-- empty_cart
-- fully_cart
-nc: 3
-path: /kaggle/working/MCA/roboflow
+# MCA-Appendix/data.yaml
+
+path: dataset  
 train: train/images
 val: valid/images
+
+# 클래스 정보
+nc: 3
+names: 
+  - combined_cart
+  - empty_cart
+  - fully_cart
